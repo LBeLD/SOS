@@ -1,0 +1,123 @@
+body, html {
+  overflow-x:hidden;
+}
+
+/* === NAVBAR == */
+
+.navbar{
+  background-color: #fff !important;
+
+}
+
+.navbar button{
+  border: none !important;
+  cursor:pointer;
+}
+
+.navbar ul li{
+  margin: 0 10px !important;
+}
+
+.navbar ul li a:hover{
+  color: #6FBFEC !important;
+  text-decoration: underline;
+}
+
+/* === HEADER === */
+
+.mainBanner{
+  color:#fff;
+  background:url('https://i2.wp.com/www.sera4.com/wp-content/uploads/2017/05/header-toronto.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.text {
+  margin: 200px auto 50px auto;
+}
+
+/* === CARDS === */
+.actions{
+  margin-top: 40px;
+}
+
+/* === TESTIMONIALS == */
+
+.testimonials{
+  margin-top: 40px;
+}
+
+.testimonials p {
+  font-size: 13px;
+}
+
+hr{
+  margin-bottom: 40px;
+}
+
+/* ==== GALLERY ==== */
+
+.gallery{
+  margin-top: 40px;
+}
+
+.gallery .card{
+  margin: 10px;
+  border: none;
+}
+
+
+.gallery .card-img-top {
+width: 300px;
+height: 200px;
+margin: 0 auto;
+}
+
+/* === NUMBERS ===*/
+
+.numbers{
+  margin-top: 40px;
+}
+
+.about-link {
+  margin-top: 40px;
+}
+
+/*=== SPONSROS ====*/
+.sponsors h1{
+  margin-bottom: 40px;
+}
+.sponsors img{
+  height: 100px;
+  width: 100px;
+}
+
+/* ==== FOOOTER ==== */
+
+.page-footer{
+  padding: 10px;
+  min-height: 150px;
+  background-color: #12435B;
+  color:#fff;
+}
+
+
+.fa{
+  color:#73C0E9;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+
+.fa:hover{
+  color:#fff;
+}
+
+/* ==== MEDIA QUERIES ==== */
+
+@media(max-width: 700px) {
+  .text {
+    margin: 100px auto 50px auto;
+  }
+}
